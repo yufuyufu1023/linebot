@@ -1,0 +1,16 @@
+.sun {
+    color: red;
+}
+
+.sat {
+    color: blue;
+}
+
+.today {
+    background: antiquewhite;
+}
+
+.plan{
+    background: #006b0e;
+    color: white;
+}
