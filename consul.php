@@ -8,7 +8,7 @@ if (empty($u_name)) {
 if ($u_cate != "先生") {
     header('location:index.php');
 }
-$con = mysqli_connect('mysql619.db.sakura.ne.jp', 'tatara', 'god0419sinobi', 'tatara_yufuyufu');
+$con = mysqli_connect('mysql619.db.sakura.ne.jp', 'tatara', 'password', 'tatara_yufuyufu');
 if (!$con) {
     exit;
 }
